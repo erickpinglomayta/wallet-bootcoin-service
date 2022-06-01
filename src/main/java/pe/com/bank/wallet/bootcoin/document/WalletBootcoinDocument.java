@@ -20,5 +20,7 @@ public class WalletBootcoinDocument {
 	private Double balance;
 	private Long phoneNumber;
 	private String email;
+	private String yankiWalletId;
+	private String accountId;
 
 }
