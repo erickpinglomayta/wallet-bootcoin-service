@@ -39,8 +39,8 @@ public class WalletBootcoinServiceImpl implements WalletBootcoinService{
 			walletBootcoin.setBalance(updateWalletBootcoin.getBalance() != null ?updateWalletBootcoin.getBalance():walletBootcoin.getBalance());
 			walletBootcoin.setPhoneNumber(updateWalletBootcoin.getPhoneNumber() != null ?updateWalletBootcoin.getPhoneNumber():walletBootcoin.getPhoneNumber());
 			walletBootcoin.setEmail(updateWalletBootcoin.getEmail() != null ?updateWalletBootcoin.getEmail():walletBootcoin.getEmail());
-			walletBootcoin.setYankiWalletId(updateWalletBootcoin.getYankiWalletId() != null ?updateWalletBootcoin.getYankiWalletId():walletBootcoin.getYankiWalletId());
-			walletBootcoin.setAccountId(updateWalletBootcoin.getAccountId() != null ?updateWalletBootcoin.getAccountId():walletBootcoin.getAccountId());
+			walletBootcoin.setYankiPhoneNumber(updateWalletBootcoin.getYankiPhoneNumber() != null ?updateWalletBootcoin.getYankiPhoneNumber():walletBootcoin.getYankiPhoneNumber());
+			walletBootcoin.setNumberAccount(updateWalletBootcoin.getNumberAccount() != null ?updateWalletBootcoin.getNumberAccount():walletBootcoin.getNumberAccount());
 			return walletBootCoinRepository.save(walletBootcoin);
 		});
 	}
